@@ -3,7 +3,7 @@ const character = {
   fileNumber: "004",
   name: "SEO CHAE-YEON",
   koreanName: "서채연",
-  image: ["images/portrait-1.png", "images/portrait-2.png"],   // 문자열 1개 또는 배열 모두 가능. 2장 이상이면 천천히 교차 전환됩니다
+  image: ["portrait-1.png"],   // 문자열 1개 또는 배열 모두 가능. 2장 이상이면 천천히 교차 전환됩니다
   status: "Active",
   age: 27,
   gender: "Female",
@@ -42,8 +42,10 @@ const character = {
   ],
   relationships: [
     { type: "Husband", name: "당신", desc: "그녀가 정말 사랑하는 그녀의 남편" },
-    { type: "Family", name: "아버지", desc: "그녀가 경찰이 된 계기" },
-    { type: "Family", name: "어머니", desc: "가장 오래 연락이 닿아 있는 사람." }
+    { type: "Family", name: "서도겸", desc: "그녀가 경찰이 된 계기이자 그녀의 아버지" },
+    { type: "Family", name: "정수아", desc: "가장 오래 연락이 닿아 있는 사람이자 그녀의 어머니" },
+    { type: "Family", name: "서채윤", desc: "그녀의 둘째 동생" },
+    { type: "Family", name: "서채아", desc: "그녀의 셋째 동생" }
   ],
   access: "Authorized Personnel Only",
   lastUpdated: "2026.10.07"
